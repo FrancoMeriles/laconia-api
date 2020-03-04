@@ -1,4 +1,4 @@
-service: laconia-example
+service: laconia-api
 
 plugins:
   - serverless-offline
