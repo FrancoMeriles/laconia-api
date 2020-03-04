@@ -1,0 +1,21 @@
+{
+  "name": "laconia-api",
+  "version": "1.0.0",
+  "description": "Laconia is a microframework for building Node.js serverless function based applications. Laconia shields you from the friction of serverless development by providing consistent architectural patterns and developer experience.",
+  "scripts": {
+    "dev": "LACONIA_NO_CALLBACK='true' serverless offline"
+  },
+  "keywords": [],
+  "author": "Franco Meriles fran.meriles@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@laconia/core": "^1.10.0",
+    "@laconia/event": "^1.10.0",
+    "aws-sdk": "^2.632.0",
+    "loggy": "^1.0.8",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  }
+}

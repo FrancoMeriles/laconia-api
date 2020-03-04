@@ -1,0 +1,22 @@
+service: laconia-example
+
+plugins:
+  - serverless-offline
+
+provider:  
+  name: aws  
+  runtime: nodejs12.x
+
+functions:
+  getPosts:
+    handler: src/application/app.getPosts
+    events:
+      - http:
+          path: /posts
+          method: get
+  getPost:
+    handler: src/application/app.getPost
+    events:
+      - http:
+          path: /posts/{id}
+          method: get
