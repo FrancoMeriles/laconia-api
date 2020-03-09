@@ -27,7 +27,7 @@ Start the development environment
 
     npm run dev
 
-Deploy to AWS Lambda
+Deploy to AWS Lambda (configure aws cli)
 
     serverless deploy
 

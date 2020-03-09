@@ -3,9 +3,9 @@ const laconia = require('@laconia/core');
 const getPosts = require('../domain/getPosts');
 const getPost = require('../domain/getPost');
 // Dependency
-const postsService = require('../infraestructure/dependencies/postsService');
-const apiGateway = require('../infraestructure/dependencies/apiGateway');
-const logger = require('../infraestructure/dependencies/loggy');
+const postsService = require('../infrastructure/dependencies/postsService');
+const apiGateway = require('../infrastructure/dependencies/apiGateway');
+const logger = require('../infrastructure/dependencies/loggy');
 
 module.exports = {
   getPost: laconia(getPost).register(logger).register(postsService).register(apiGateway),
