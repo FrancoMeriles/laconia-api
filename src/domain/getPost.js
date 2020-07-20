@@ -1,5 +1,5 @@
 const handler = async (event, { logger, postsService, api }) => {
-  logger.info('Hi from the handler getPost');
+  logger.info("Hi from the handler getPost");
   const { req, res } = api;
   const request = req(event);
 
