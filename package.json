@@ -11,7 +11,7 @@
   "dependencies": {
     "@laconia/core": "^1.10.0",
     "@laconia/event": "^1.10.0",
-    "aws-sdk": "^2.632.0",
+    "aws-sdk": "^2.814.0",
     "loggy": "^1.0.8",
     "node-fetch": "^2.6.0"
   },
